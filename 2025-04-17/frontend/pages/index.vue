@@ -29,9 +29,11 @@ cd autobyteus_workshops/2025-04-17/frontend</code></pre>
         </li>
         <li>
           <strong>安装依赖</strong><br>
-          <pre class="bg-gray-100 p-2 rounded text-sm font-mono"><code>npm install
-# 或者
-yarn install</code></pre>
+          <pre class="bg-gray-100 p-2 rounded text-sm font-mono"><code>npm install</code></pre>
+        </li>
+        <li>
+          <strong>启动项目</strong><br>
+          <pre class="bg-gray-100 p-2 rounded text-sm font-mono"><code>npm start</code></pre>
         </li>
       </ul>
     </div>

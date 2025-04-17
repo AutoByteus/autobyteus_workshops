@@ -1,9 +1,10 @@
 {
-  "name": "workflow-system-nuxt",
+  "name": "autobyteus-chem-animation-workshop",
   "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
