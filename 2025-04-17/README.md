@@ -20,37 +20,33 @@ This is a hands-on online workshop for developers to create chemical animations 
 - 并参考设置教程：使用教程
 
 ## 🛠 Environment Preparation
-1. **安装 Node.js v20.11.0**  
+1. **Ensure Node.js is installed**  
+   If you do not have Node.js, download and install it from https://nodejs.org/en/download/ before proceeding.  
+2. **安装 Node.js v20.11.0**  
    - 验证版本：  
      ```bash
-     node --version
-     # 应输出 v20.11.0
+     node --version  # 应输出 v20.11.0
      ```  
    - 若使用 nvm，可运行：  
      ```bash
      nvm install 20.11.0
      nvm use 20.11.0
      ```  
-2. **克隆仓库**  
+3. **克隆仓库**  
    ```bash
-   git clone https://github.com/autobyteus/workshops.git
-   cd workshops/2025-04-17/frontend
+   git clone https://github.com/ryan-zheng-teki/autobyteus_workshops.git
+   cd autobyteus_workshops/2025-04-17/frontend
    ```  
-3. **安装依赖**  
+4. **安装依赖**  
    ```bash
    npm install
    # or
    yarn install
-   ```  
-4. **配置环境变量**  
-   ```bash
-   cp .env.example .env
-   # 编辑 .env，设置 API_URL 或其他必要变量
    ```
 
 ## 📂 Repository
 请查看 AutoByteus Workshops GitHub 仓库，包含本次 Workshop 的前端模板：  
-https://github.com/autobyteus/workshops
+https://github.com/ryan-zheng-teki/autobyteus_workshops
 
 ## 🧩 Next Session Preview
 使用 AutoByteus LLM 构建 MCP 服务器与客户端，目标是和本地工具进行集成，最好是通用型的工具
