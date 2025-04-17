@@ -1,6 +1,3 @@
-Important: do not add <?xml version="1.0" encoding="UTF-8"?> this declaration. Follow 100% the format specified
-
-
 # Prompt for LLM: Interactive 3D Atom Visualizer
 
 **Goal:** Create an interactive 3D Atom Visualizer.
