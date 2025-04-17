@@ -1,9 +1,9 @@
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library, config } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { 
-  faChevronRight, 
-  faChevronLeft, 
-  faFolder, 
+import {
+  faChevronRight,
+  faChevronLeft,
+  faFolder,
   faPaperPlane,
   faPlus,
   faFileExport,
@@ -26,22 +26,28 @@ import {
   faSave,
   faShare,
   faCode,
-  faPlay,
+  faPlay, // Already exists, good for 'normal' speed
   faSitemap,
   faCheck,
   faClipboardList,
   faDraftingCompass,
   faExternalLinkAlt,
   faRobot,
-  faTasks
+  faTasks,
+  faBackward, // Add for 'slow' speed
+  faForward, // Add for 'fast' speed
+  faAtom // Add for visual flair maybe
 } from '@fortawesome/free-solid-svg-icons'
+
+// This is important, otherwise the icons won't appear
+config.autoAddCss = false
 
 export default defineNuxtPlugin(nuxtApp => {
   // Add all icons to the library
   library.add(
-    faChevronRight, 
-    faChevronLeft, 
-    faFolder, 
+    faChevronRight,
+    faChevronLeft,
+    faFolder,
     faPaperPlane,
     faPlus,
     faFileExport,
@@ -71,9 +77,13 @@ export default defineNuxtPlugin(nuxtApp => {
     faDraftingCompass,
     faExternalLinkAlt,
     faRobot,
-    faTasks
+    faTasks,
+    faBackward, // Added
+    faForward,  // Added
+    faAtom      // Added
   )
 
   // Register the FontAwesomeIcon component globally
   nuxtApp.vueApp.component('FontAwesomeIcon', FontAwesomeIcon)
+  console.log('FontAwesome plugin configured with additional icons.');
 })
