@@ -39,9 +39,11 @@ This is a hands-on online workshop for developers to create chemical animations 
    ```  
 4. **安装依赖**  
    ```bash
-   npm install
-   # or
    yarn install
+   ```  
+5. **启动项目**  
+   ```bash
+   yarn start
    ```
 
 ## 📂 Repository
