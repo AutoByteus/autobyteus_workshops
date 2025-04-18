@@ -34,7 +34,7 @@ This is a hands-on online workshop for developers to create chemical animations 
      ```  
 3. **克隆仓库**  
    ```bash
-   git clone https://github.com/ryan-zheng-teki/autobyteus_workshops.git
+   git clone https://github.com/AutoByteus/autobyteus_workshops.git
    cd autobyteus_workshops/2025-04-17/frontend
    ```  
 4. **安装依赖**  
@@ -48,7 +48,7 @@ This is a hands-on online workshop for developers to create chemical animations 
 
 ## 📂 Repository
 请查看 AutoByteus Workshops GitHub 仓库，包含本次 Workshop 的前端模板：  
-https://github.com/ryan-zheng-teki/autobyteus_workshops
+https://github.com/AutoByteus/autobyteus_workshops
 
 ## 🧩 Next Session Preview
 使用 AutoByteus LLM 构建 MCP 服务器与客户端，目标是和本地工具进行集成，最好是通用型的工具

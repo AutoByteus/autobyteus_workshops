@@ -24,7 +24,7 @@ nvm use 20.11.0</code></pre>
         </li>
         <li>
           <strong>克隆仓库</strong><br>
-          <pre class="bg-gray-100 p-2 rounded text-sm font-mono"><code>git clone https://github.com/ryan-zheng-teki/autobyteus_workshops.git
+          <pre class="bg-gray-100 p-2 rounded text-sm font-mono"><code>git clone https://github.com/AutoByteus/autobyteus_workshops.git
 cd autobyteus_workshops/2025-04-17/frontend</code></pre>
         </li>
         <li>
